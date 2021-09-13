@@ -18,10 +18,30 @@ namespace Ejercicio_Parcial.Negocios
             else if (ventas.Nombre_producto == "")
             {
                 return "Ingrese el nomobre del producto: ";
+
             }
-            public string venderproducto(Ventas producto, int cantidad, double precio);Dd
+            else if (ventas.Descripcion_producto == "")
+            {
+                return "Ingrese la descripcion del producto: ";
+            }
+            else if (ventas.Cantidad == 0)
+            {
+                return "Ingresa la cantidad a comprar: ";
+            }
+            else if (ventas.Precio == 0 ) ;
+                double total = ventas.Precio * ventas.Cantidad;
 
+            if (ventas.Precio > 50)
+            {
+                double descuento = total - (total * 0.20);
+                Console.WriteLine("aplica al 20% de descuento su total es de " + descuento);
+            }
+            else
+            {
+                Console.WriteLine("no aplica descuento su total es" + total);
+            }
 
+            return "";
         }
     }
 }

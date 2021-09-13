@@ -9,9 +9,11 @@ namespace Ejercicio_Parcial.Negocios
 {
     class ClsUsuario
     {
+        public int Y { get; internal set; }
+
         public string Acceso(Usuario usuario) 
-        { 
-        if (usuario.Nombre == "")
+        {
+            if (usuario.Nombre == "")
             {
                 return "Ingresa tu nombre: ";
             } 

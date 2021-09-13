@@ -1,0 +1,7 @@
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\obj\Debug\Ejercicio_Parcial.csproj.AssemblyReference.cache
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\obj\Debug\Ejercicio_Parcial.csproj.CoreCompileInputs.cache
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\bin\Debug\Ejercicio_Parcial.exe.config
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\bin\Debug\Ejercicio_Parcial.exe
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\bin\Debug\Ejercicio_Parcial.pdb
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\obj\Debug\Ejercicio_Parcial.exe
+C:\Users\cance\OneDrive\Documentos\GitHub\Primer_ParcialPOO\Ejercicio_Parcial\Ejercicio_Parcial\obj\Debug\Ejercicio_Parcial.pdb

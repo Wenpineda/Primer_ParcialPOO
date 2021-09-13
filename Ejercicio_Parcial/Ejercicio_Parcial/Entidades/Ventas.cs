@@ -14,14 +14,21 @@ namespace Ejercicio_Parcial.Entidades
         private int cantidad;
         private double precio;
 
-        public Ventas(int id_producto, string descripcion_producto, string nombre_producto, int cantidad, double precio)
+        public Ventas(double id_producto1, string descripcion_producto, string nombre_producto, int cantidad, double precio)
+        {
+            this.descripcion_producto = descripcion_producto;
+            this.nombre_producto = nombre_producto;
+            this.cantidad = cantidad;
+            this.precio = precio;
+        }
+
+        public Ventas(double id_producto1, int id_producto, string descripcion_producto, string nombre_producto, int cantidad, double precio)
         {
             this.id_producto = id_producto;
             this.descripcion_producto = descripcion_producto;
             this.nombre_producto = nombre_producto;
             this.cantidad = cantidad;
             this.precio = precio;
-
 
         }
 
