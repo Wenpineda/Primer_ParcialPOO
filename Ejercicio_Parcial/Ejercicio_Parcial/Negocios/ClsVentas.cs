@@ -9,27 +9,9 @@ namespace Ejercicio_Parcial.Negocios
 {
     class ClsVentas
     {
-        public string cobro(Ventas ventas) 
+        public String Cobro(Ventas ventas)
         {
-            if (ventas.Id_producto < 1 || ventas.Id_producto > 5)
-            {
-                return "Ingrese el id del del producto: ";
-            }
-            else if (ventas.Nombre_producto == "")
-            {
-                return "Ingrese el nomobre del producto: ";
-
-            }
-            else if (ventas.Descripcion_producto == "")
-            {
-                return "Ingrese la descripcion del producto: ";
-            }
-            else if (ventas.Cantidad == 0)
-            {
-                return "Ingresa la cantidad a comprar: ";
-            }
-            else if (ventas.Precio == 0 ) ;
-                double total = ventas.Precio * ventas.Cantidad;
+            double total = ventas.Precio * ventas.Cantidad;
 
             if (ventas.Precio > 50)
             {
@@ -39,9 +21,10 @@ namespace Ejercicio_Parcial.Negocios
             else
             {
                 Console.WriteLine("no aplica descuento su total es" + total);
+
+                Console.ReadLine();
             }
 
-            return "";
         }
     }
 }

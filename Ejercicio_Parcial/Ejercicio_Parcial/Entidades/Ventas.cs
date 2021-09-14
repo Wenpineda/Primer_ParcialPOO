@@ -37,5 +37,16 @@ namespace Ejercicio_Parcial.Entidades
         public string Nombre_producto { get => nombre_producto; set => nombre_producto = value; }
         public int Cantidad { get => cantidad; set => cantidad = value; }
         public double Precio { get => precio; set => precio = value; }
+
+        public override string ToString()
+        {
+            return " el id de su producto es: " + id_producto +
+            "\n el nombre de su producto es: " + nombre_producto +
+             "\n la decripcion de su producto es es: " + descripcion_producto +
+              "\n el precio de su producto es: " + precio +
+               "\n la cantidad de su producto es: " + cantidad;
+
+
+        }
     }
 }

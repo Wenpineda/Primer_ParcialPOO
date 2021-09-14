@@ -12,17 +12,20 @@ namespace Ejercicio_Parcial
     {
         static void Main(string[] args)
         {
+            Usuario usuario = new Usuario();
+            ClsUsuario clsusuario = new ClsUsuario();
+
             String nombre = Console.ReadLine();
             string contraseña = Convert.ToString(Console.ReadLine());
 
-            Usuario Cons = new Usuario(nombre, contraseña);
-            ClsUsuario clsUsuario = new ClsUsuario();
-
-            Console.WriteLine("digite el nombre de usuario");
-            Cons.Nombre = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Escribe tu nombre");
+            nombre = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("Escriba su clave de accesos");
-            Cons.Contraseña = Convert.ToString(Console.ReadLine());
+            contraseña = Convert.ToString(Console.ReadLine());
+            Usuario Cons = new Usuario(nombre, contraseña);
+            ClsUsuario clsUsuario = new ClsUsuario();
+           
 
             Console.WriteLine(clsUsuario.Acceso(Cons));
 
@@ -42,10 +45,15 @@ namespace Ejercicio_Parcial
                     Console.WriteLine("ingrese la cantidad del producto");
                     int cantidad = Convert.ToInt32(Console.ReadLine());
 
+                    Ventas vent = new Ventas(id_producto, descripcion_producto, nombre_producto, cantidad, precio);
+
                     ClsVentas cls = new ClsVentas();
 
-                    Ventas vent = new Ventas(id_producto, descripcion_producto, nombre_producto, cantidad, precio);
-                    Console.WriteLine(cls.cobro(vent));
+                 
+                    Console.WriteLine(cls.Cobro(vent));
+                    Console.WriteLine(usuario.ToString());
+                    Console.WriteLine(vent.ToString());
+                    Console.ReadLine();
 
                 }
             }
